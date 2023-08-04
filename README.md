@@ -1,11 +1,11 @@
-About geomstats
-===============
+About geomstats-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geomstats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/geomstats/geomstats
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geomstats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Geometric statistics on manifolds
 
@@ -153,7 +153,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@lpereira95](https://github.com/lpereira95/)
+* [@luisfpereira](https://github.com/luisfpereira/)
 * [@nguigs](https://github.com/nguigs/)
 * [@ninamiolane](https://github.com/ninamiolane/)
 * [@ymontmarin](https://github.com/ymontmarin/)
