@@ -1,13 +1,13 @@
 {% set name = "geomstats" %}
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz  
-  sha256: 575c300a3796f26e402409f65330257c51761f8456815a07c163c8f41603a7e0
+  url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  sha256: 7a2eb36ba28690c43f47c5cf998756ef49db6f0c4fdb58d215903a825c474691
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -19,12 +19,12 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - joblib >=0.14.1 
-    - matplotlib-base >=3.3.4 
-    - numpy >=1.18.1  
-    - pandas >=1.1.5  
-    - python >=3.7  
-    - scikit-learn >=0.22.1 
+    - joblib >=0.14.1
+    - matplotlib-base >=3.3.4
+    - numpy >=1.18.1
+    - pandas >=1.1.5
+    - python >=3.7
+    - scikit-learn >=0.22.1
     - scipy >=1.4.1
 
 test:
