@@ -1,5 +1,5 @@
 {% set name = "geomstats" %}
-{% set version = "2.7.0" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 7a2eb36ba28690c43f47c5cf998756ef49db6f0c4fdb58d215903a825c474691
+  sha256: 20987f5b9fe5be1dfb5181b660e305c6357f68ef16b648af893112947ceeb6c7
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
